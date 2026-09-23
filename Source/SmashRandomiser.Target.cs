@@ -6,7 +6,8 @@ public class SmashRandomiserTarget : TargetRules
     public SmashRandomiserTarget(TargetInfo Target) : base(Target)
     {
         Type = TargetType.Game;
-        DefaultBuildSettings = BuildSettingsVersion.V2;
+        DefaultBuildSettings = BuildSettingsVersion.V7;
+        IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_8;
         ExtraModuleNames.Add("SmashRandomiser");
     }
 }
